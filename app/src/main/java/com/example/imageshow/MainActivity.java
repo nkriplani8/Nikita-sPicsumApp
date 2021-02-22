@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //initializing...
         gridView = findViewById(R.id.gridView);
 
         Retrofit retrofit=new Retrofit.Builder()
